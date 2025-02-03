@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form button {
+  border-radius: 0 4px 4px 0;
+}
+
+.weather-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.conditions,
+.humidity {
+  color: #666;
+}
+
+.favorite-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+#favorites h2 {
+  margin-bottom: 10px;
+}
+
+#favorites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#favorites li {
+  margin-bottom: 10px;
+}
+
+#favorites button {
+  width: 100%;
+  text-align: left;
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#favorites button:hover {
+  background-color: #e2e6ea;
+}
+
